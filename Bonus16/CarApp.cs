@@ -39,7 +39,9 @@ namespace Bonus16
                 objCar.Price = double.Parse(Console.ReadLine());
 
                 storeCars.Add(objCar);
+                Console.WriteLine(storeCars[i]);
             }
+
             foreach(Car c in storeCars)
             {
                 Console.WriteLine(c.ToString());

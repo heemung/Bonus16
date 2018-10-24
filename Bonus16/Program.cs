@@ -11,6 +11,7 @@ namespace Bonus16
         static void Main(string[] args)
         {
             CarApp startApp = new CarApp();
+
             Console.WriteLine("How many cars do you want to create?");
             startApp.CreateObjectAndPrint(Console.ReadLine());
 
